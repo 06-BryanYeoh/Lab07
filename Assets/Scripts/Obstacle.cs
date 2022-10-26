@@ -8,14 +8,6 @@ using UnityEngine.SceneManagement;
 public class Obstacle : MonoBehaviour
 {
     [SerializeField] private float Speed = 3;
-    public GameObject Ducky;
-    public Text Scoretext;
-    public int DuckScore = 0;
-
-    void Start()
-    {
-        Scoretext.GetComponent<Text>().text = "SCORE: 0";
-    }
 
     void Update()
     {
@@ -24,11 +16,6 @@ public class Obstacle : MonoBehaviour
         else
             transform.Translate(Vector3.right * Time.deltaTime * -Speed);
 
-        if (this.transform.position.x < Ducky.transform.position.x)
-        {
-            DuckScore += 1;
-            Scoretext.GetComponent<Text>().text = "SCORE: " + DuckScore;
-        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -39,4 +26,5 @@ public class Obstacle : MonoBehaviour
             SceneManager.LoadScene("Die");
         }
     }
+
 }

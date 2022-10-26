@@ -188,6 +188,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8253605743114604250, guid: ed5b6e139639a11419909b026eb40da8,
+        type: 3}
+      propertyPath: Ducky
+      value: 
+      objectReference: {fileID: 1530793053}
+    - target: {fileID: 8253605743114604250, guid: ed5b6e139639a11419909b026eb40da8,
+        type: 3}
+      propertyPath: Scoretext
+      value: 
+      objectReference: {fileID: 1234966715}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed5b6e139639a11419909b026eb40da8, type: 3}
 --- !u!1 &170076733
@@ -365,6 +375,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &538189907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1662584973375887002, guid: ed5b6e139639a11419909b026eb40da8,
+    type: 3}
+  m_PrefabInstance: {fileID: 157877602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &903268378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,6 +452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128773495855167462, guid: fa616eb311850a54498fbc4920bda0fa,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 122
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa616eb311850a54498fbc4920bda0fa, type: 3}
@@ -532,6 +553,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1234966715 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7942643918165592039, guid: 6c6e5f222f546d84ea2769878189e2dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2098148390}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1425126682
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425126682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5195236, y: -5.38, z: 0.4475603}
+  m_LocalPosition: {x: 0.5195236, y: -5.21, z: 0.4475603}
   m_LocalScale: {x: 15, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -638,6 +671,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a9143b369d18bd4ca015df029e43d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1530793053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3068709404102748816, guid: fa616eb311850a54498fbc4920bda0fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 903268378}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1664872500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -849,6 +888,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7942643919102861668, guid: 6c6e5f222f546d84ea2769878189e2dd,
+        type: 3}
+      propertyPath: Duck
+      value: 
+      objectReference: {fileID: 1530793053}
+    - target: {fileID: 7942643919102861668, guid: 6c6e5f222f546d84ea2769878189e2dd,
+        type: 3}
+      propertyPath: Obstacle
+      value: 
+      objectReference: {fileID: 538189907}
     - target: {fileID: 7942643919102861679, guid: 6c6e5f222f546d84ea2769878189e2dd,
         type: 3}
       propertyPath: m_Name
