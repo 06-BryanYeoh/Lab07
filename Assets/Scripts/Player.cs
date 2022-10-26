@@ -17,10 +17,6 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             thisAnimation.Play();
