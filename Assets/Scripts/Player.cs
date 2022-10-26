@@ -23,4 +23,12 @@ public class Player : MonoBehaviour
             ducky.velocity = ducky.velocity + Vector3.up * duckflyspeed;
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Score")
+        {
+            GameManager.thisManager.UpdateScore(1);
+        }
+    }
 }
